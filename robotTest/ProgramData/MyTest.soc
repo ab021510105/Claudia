@@ -1,0 +1,40 @@
+
+
+
+  <div class="GridView" id="MyTestGridView" style="text-align:center">
+                            <div class="GvTitle">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td style="text-align:center">考试信息</td>
+                                        <td style="width:4.5%">
+                                            <a href="#" style="color:white" onclick="ReFreshMyTest()">刷新</a>
+
+                                        </td>
+
+                                    </tr>
+                                    </table>
+                                </div>
+                        
+                         
+                        </div> 
+                        
+                        <div id="QuizControl" style="display:none">
+                            <div style="width:100%;border-bottom:1px solid #dbd9d9;color:#808080" id="QuizTitle"></div>
+                            <div id="QuizDesk"> </div>
+                            <div style="text-align:center;vertical-align:bottom;width:100%" id="QuizControlPage" >
+                                <div>
+                                    &nbsp;
+                            <input type="button" id="QuizButtonFront" value=" ◀ "  class="PagerButtom" onclick="OnQuizFrontPageClick()"/>
+                                &nbsp;
+                                    &nbsp;
+                                <input type="button" id="QuizButtonNext" value=" ▶ " class="PagerButtom" onclick="OnQuizNextPageClick()" />
+                                &nbsp;
+                                    &nbsp;
+                                </div>
+                               <div>
+                                <label id="QuizpageCount"></label>
+
+                               </div>
+                            </div>
+
+                        </div>

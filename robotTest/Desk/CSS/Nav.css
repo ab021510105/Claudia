@@ -1,0 +1,82 @@
+﻿@charset"Utf-8";
+  .nav-item {
+	        line-height: 60px;
+	      background-color: rgba(0, 102, 117, 0.42);
+            list-style:none;
+        }
+        .nav-item > li {
+	        position: relative;
+	        float: left;
+        }
+        .nav-item > li a {
+	        display: block;
+        }
+        .nav-item > li > a {
+	        font-size: 19px;
+	        font-weight: bold;
+	        padding: 0 31px;
+	        border-left: 1px solid #3bc1d4;
+        }
+        .nav-item > li:first-child > a {
+	        border-left: none;
+        }
+        .nav-item li a:hover, .nav-item > li:hover > a {
+	        background-color: #006675;
+        }
+        .nav-item > li .nav-sub-item {
+	        display: none;
+	        position: absolute;
+	        left: 1px;
+	        font-size: 14px;
+	        width: 100%;
+	        line-height: 40px;
+	        background-color: rgba(0, 102, 117, 0.42);
+            list-style:none;
+        }
+        .nav-sub-item li a {
+	        padding-left: 31px;
+        }
+        .nav-item > li:hover .nav-sub-item {
+	        display: block;
+        }
+        .nav-Linkbuttom {
+            text-decoration: none;
+            color: white;
+        }
+        .Button_L {
+            background-color:#284775;
+            color:white;
+            font-size:x-large;
+            border:none;
+        }
+        .Button_a {
+            border:none;
+        }
+          .Plan {
+            background-color:rgba(0,102,117,0.42);
+            width:100%;
+            color:white;
+            
+        }
+          .Pager {
+            background-color:#284775;
+            Color:White;
+            text-align:Center;
+            font-weight:700;
+            
+        }
+          .PagerButton {
+               text-decoration: none;
+               color: white;
+               font-size:x-large;
+        }
+        .Gw_Div {
+            background-color:rgba(255, 255, 255, 0.10);
+            right:5%;
+            left:5%;
+            top:20%;
+            
+        }
+        .log_item {
+            border:1px solid #000000;
+        }

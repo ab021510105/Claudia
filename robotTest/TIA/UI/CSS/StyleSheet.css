@@ -1,0 +1,110 @@
+﻿@charset"Utf-8";
+body {
+
+}
+.Button_L {
+    height: 50px;
+    width: 103px;
+    background-color:blue;
+     color:#ffffff;
+     border:1px solid #000000;
+     font-size:large;
+}
+
+.Button_S{
+    background-color:blue;
+     color:#ffffff;
+     border:1px solid #000000;
+    height: 19px;
+}
+.Button_S_B{
+    background-color:black;
+    color:#FFFFFF;
+    border:1px solid #000000;
+    height:19px;
+    border-radius:10px;
+}
+.Timer{
+    text-decoration:none;
+    font-size:400%;
+}
+/*input[type=button]
+{
+    border-radius:15px;
+}*/
+
+.Quiz_table {
+    width:100%;
+}
+.item_OptionsLast {
+    border-bottom:1px solid #95f6f3;
+
+}
+
+.item_Quiz {
+    text-align:center;
+    font-size:130%;
+}
+
+ul {
+    list-style:none;
+}
+
+.Pager {
+ text-align:center;
+ width:100%;
+}
+
+.item_Options{
+    width:100%;
+    border:2px solid #ffffff;
+}
+
+li {
+    list-style-type:none;
+
+}
+
+.Nav {
+    background-color:#0094ff;
+    border-top:1px solid #ffffff;
+    text-align:center;
+
+}
+
+.loginfo {
+    background-color:rgba(11, 49, 174, 0.5);
+    text-align:right;
+    color:white;
+    border-bottom:1px solid #000000;
+}
+
+          .Pager {
+            background-color:#284775;
+            Color:White;
+            text-align:Center;
+            font-weight:700;
+            
+        }
+          .PagerButton {
+               text-decoration: none;
+               color: white;
+               font-size:x-large;
+        }
+        .Gw_Div {
+            background-color:rgba(255, 255, 255, 0.10);
+            right:5%;
+            left:5%;
+            top:20%;
+            
+        }
+.Butonlist {
+    vertical-align:top;
+}
+
+.ButtomForTable {
+    background: -ms-linear-gradient(top,#ffffff,#e6e2e2);
+    border-radius: 5px;
+    height: 35px;
+    border:1px solid #808080;
+}

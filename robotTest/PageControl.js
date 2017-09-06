@@ -1,0 +1,17 @@
+﻿var colorlist = new Array();
+colorlist[0] = "rgba(00,00,00,0.00)";
+colorlist[1] = "rgba(00,00,00,0.07)";
+colorlist[2] = "rgba(00,00,00,0.13)";
+colorlist[3] = "rgba(00,00,00,0.19)";
+colorlist[4] = "rgba(00,00,00,0.25)";
+colorlist[5] = "rgba(00,00,00,0.31)";
+colorlist[6] = "rgba(00,00,00,0.37)";
+colorlist[7] = "rgba(00,00,00,0.43)";
+colorlist[8] = "rgba(00,00,00,0.49)";
+colorlist[9] = "rgba(00,00,00,0.55)";
+colorlist[10] = "rgba(00,00,00,0.61)";
+colorlist[11] = "rgba(00,00,00,0.67)";
+colorlist[12] = "rgba(00,00,00,0.72)";
+colorlist[13] = "rgba(00,00,00,0.78)";
+colorlist[14] = "rgba(00,00,00,0.84)";
+colorlist[15] = "rgba(00,00,00,1.00)";

@@ -1,0 +1,30 @@
+﻿<div id="Title" style="width:100%">
+  <table>
+    <tr>
+      <td id="W_TiatTitle">
+
+      </td>
+      <td>
+        <a href="#" onclick="OnWTiatCloseClick()">关闭</a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="W_iatTileDesk">
+
+</div>
+<div style="text-align:center;vertical-align:bottom;width:100%" id="QuizControlPage" >
+  <div>
+    &nbsp;
+    <input type="button" id="TiatButtonFront" value=" ◀ "  class="PagerButtom" onclick="onWtiatFontBtnClick()"/>
+    &nbsp;
+    &nbsp;
+    <input type="button" id="TiatButtonNext" value=" ▶ " class="PagerButtom" onclick="OnWtiatNextBtnClikc()" />
+    &nbsp;
+    &nbsp;
+  </div>
+  <div>
+    <label id="WtitleCount"></label>
+
+  </div>
+</div>

@@ -1,0 +1,58 @@
+﻿<div id="HistoryjhScreahDesk" style="width:100%">
+  <div id="serchTitle" style="font-size:12px">搜索时间:</div>
+  <div style="color:#808080">
+    <div>
+      <input type="text" id="TestStartTime" value="" onclick="WdatePicker()"/>....<input type="text" id="TestEndTime" value="" onclick=" WdatePicker()" />
+      &nbsp;
+      <input id="Search" type="button" value="检索" style="border:1px solid black;border-radius:5px" onclick="onWorng_Q_TSearchClick()"/>
+
+    </div>
+    <div style="height:2px;">
+      &nbsp;
+    </div>
+    <div>
+      <a href="#" onclick="OnLastSeventDaysClick()" style="text-decoration:none;font-weight:600; color:#18aae1">近七天</a>&nbsp;
+      <a href="#" onclick="OnLastMonthClick()" style="text-decoration:none;font-weight:600;color:#18aae1">近一个月</a>&nbsp;
+      <a href="#" onclick="OnTodayClick()" style="text-decoration:none;font-weight:600;color:#18aae1">今天</a>&nbsp;
+    </div>
+  </div>
+  <div style="height:3px">
+    &nbsp;
+  </div>
+
+
+  <div class="GridView" style="text-align:center" id="Worg_Q_TGv">
+    <div class="GvTitle">
+      <table style="width:100%">
+        <tr>
+          <td style="text-align:center">错题统计</td>
+          <td style="width:4.5%">
+            <a href="#" style="color:white" onclick="">刷新</a>
+
+          </td>
+
+        </tr>
+      </table>
+    </div>
+    <div id="Worg_Q_T_desk">
+
+    </div>
+    <div id="Worg_Q_T_pager" style="text-align:center;vertical-align:middle;width:100%">
+      &nbsp;
+      <input type="button" id="Worg_Q_T_FontButtom" value=" ◀ "  class="PagerButtom" onclick="OnWrong_Q_T_FontClick()"/>
+      &nbsp;
+      <select id="Worg_Q_T_Control" onchange="OnWorg_Q_T_Controlchanged()">
+
+      </select>/<label id="Worg_Q_T_PageCount"></label>
+      &nbsp;
+      <input type="button" id="Worg_Q_T_NextButtom" value=" ▶ " class="PagerButtom" onclick="OnWrong_Q_T_NextClick()" />
+      &nbsp;
+      &nbsp;
+    </div>
+
+
+  </div>
+</div>
+<div style="width:100%" id="TiatDesk">
+
+</div>

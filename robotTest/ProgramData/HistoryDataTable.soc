@@ -1,0 +1,7 @@
+﻿<div id="dayandmonth">
+                               <input type="button" id="week"  class="ButtomForTable" value="近七天"  onclick="Week_Click()"/>&nbsp;
+                                <input type="button" id="Month"  class="ButtomForTable" value="按月" onclick="Month_Click()"  />
+                            </div>  
+                        <div id="DataTable">
+
+                        </div>

@@ -1,0 +1,21 @@
+﻿ <div style="width:100%;border-bottom:1px solid #dbd9d9;color:#808080" id="TiatTitle">
+
+                   </div>
+                       <div id="TiatDesk">
+
+                       </div>
+                        <div style="text-align:center;vertical-align:bottom;width:100%" id="TiatControlPage" >
+                                <div>
+                                    &nbsp;
+                            <input type="button" id="TiatButtonFront" value=" ◀ "  class="PagerButtom" onclick="OnTiatFontClick()"/>
+                                &nbsp;
+                                    &nbsp;
+                                <input type="button" id="TiatButtonNext" value=" ▶ " class="PagerButtom" onclick="OnTiatNextClick()" />
+                                &nbsp;
+                                    &nbsp;
+                                </div>
+                               <div>
+                                <label id="TiatpageCount"></label>
+
+                               </div>
+                            </div>

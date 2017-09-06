@@ -1,0 +1,99 @@
+﻿ <div id="HistroryDesk">
+                            <div id="HistoryjhScreahDesk" style="width:100%">
+                               <div id="serchTitle" style="font-size:12px">搜索时间:</div>
+                                <div style="color:#808080">
+                                    <div>
+                                    <input type="text" id="TestStartTime" value="" onclick="WdatePicker()"/>....<input type="text" id="TestEndTime" value="" onclick="WdatePicker()" />
+                                    &nbsp;
+                                    <input id="Search" type="button" value="检索" style="border:1px solid black;border-radius:5px" onclick="searchHistoryInf0()"/>
+
+                                    </div>
+                                    <div style="height:2px;">
+                                        &nbsp;
+                                    </div>
+                                    <div>
+                                        <a href="#" onclick="OnLastSeventDaysClick()" style="text-decoration:none;font-weight:600; color:#18aae1">近七天</a>&nbsp;
+                                        <a href="#" onclick="OnLastMonthClick()" style="text-decoration:none;font-weight:600;color:#18aae1">近一个月</a>&nbsp;
+                                        <a href="#" onclick="OnTodayClick()" style="text-decoration:none;font-weight:600;color:#18aae1">今天</a>&nbsp;
+                                    </div>
+                                </div>
+                                <div style="height:3px">
+                                    &nbsp;
+                                </div>
+                                <div id="Histroy_Gridview_Tab">
+                                     <div class="GridView" id="MyHistoryTestCount" style="text-align:center">
+                                     <div class="GvTitle">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td style="text-align:center">综合统计</td>
+                                        <td style="width:4.5%">
+                                            <a href="#" style="color:white" onclick="RefreshMyhistoryCount()">刷新</a>
+
+                                        </td>
+
+                                    </tr>
+                                    </table>
+                                </div>
+                                         <div id="Myhistory_Count_Desk">
+
+                                         </div>
+
+                                          <div id="MyHistoryCountpager" style="text-align:center;vertical-align:bottom;width:100%">
+                                         <div>
+                                    &nbsp;
+                            <input type="button" id="MyhistoryFontPagebtn" value=" ◀ "  class="PagerButtom" onclick=" OnHistoryTestCountFontBtnClick()"/>
+                                &nbsp;
+                                    &nbsp;
+                                <input type="button" id="MyhistoryNextPagebtn" value=" ▶ " class="PagerButtom" onclick="OnHistoryTestCountNextBtnClick()" />
+                                &nbsp;
+                                    &nbsp;
+                                </div>
+                               <div>
+                                <label id="MyHistoryCountpager_Count_label"></label>
+
+                               </div>
+                               </div>
+
+                                          </div>
+                                   <div style="height:3px">&nbsp;</div>
+                                   <div class="GridView" style="text-align:center" id="HistoryTestInfo">
+                                       <div class="GvTitle">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td style="text-align:center">历史记录</td>
+                                        <td style="width:4.5%">
+                                            <a href="#" style="color:white" onclick="">刷新</a>
+
+                                        </td>
+
+                                    </tr>
+                                    </table>
+                                </div>
+                                       <div id="MyHistoryTestInfo_desk">
+
+                                       </div>
+                                       <div id="MyHistoryTestInfo_pager" style="text-align:center;vertical-align:middle;width:100%">
+                                            &nbsp;
+                            <input type="button" id="MyHistoryTestInfo_FontButtom" value=" ◀ "  class="PagerButtom" onclick="OnHestoryTestInfoFontClick()"/>
+                                &nbsp;
+                                           <select id="HistoryControl" onchange="OnHestoryTestInfoSelectChanged()">
+                                              
+                                           </select>/<label id="HistoryInfoPageCount"></label>
+                                    &nbsp;
+                                <input type="button" id="MyHistoryTestInfo_NextButtom" value=" ▶ " class="PagerButtom" onclick=" OnHestoryTestInfoNextClick()" />
+                                &nbsp;
+                                    &nbsp;
+                                       </div>
+
+
+                                   </div>
+
+
+
+
+               </div>
+
+
+                               
+                            </div>
+                        </div>
