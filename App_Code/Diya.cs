@@ -15,16 +15,8 @@ using System.Net.Mail;
 public class Diya
 {
     static LogInfo userInfo = null;
-    static public string ServerAdd = "www.onlyrobotedu.com/robotTest"；
-    public static string ConectionString = "YOU DataSourc";
-
-
-
-
-    //public static string ConectionString = @"Data Source=mssql.sql95.cdncenter.net;Initial Catalog=sq_robotedu ;Persist Security Info=True;User ID=sq_robotedu;Password=robotedu123";
-    // public static string ConectionString = @"Data Source=JOHN-PC;Initial Catalog=sq_robotedu;Persist Security Info=True; Integrated Security=SSPI";
-
-    //public static string ConectionString = @"Data Source=112.124.2.254\SQLEXPRESS;Initial Catalog=sq_robotedu;Persist Security Info=True; User ID=robotedu;Password=robotedu123;";
+    static public string ServerAdd = ""；
+    public static string ConectionString = @"Data Source=localhost;Initial Catalog=robotedu;user id=root;password=root";
     public static string[] UserInfo()
     {
         if (userInfo == null)
