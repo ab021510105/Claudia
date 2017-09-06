@@ -10,14 +10,13 @@ using Security;
 using System.Web.UI.WebControls;
 using System.Net.Mail;
 /// <summary>
-/// Diya ³£ÓÃµÄ·½·¨
+/// Diya å¸¸ç”¨çš„æ–¹æ³•
 /// </summary>
 public class Diya
 {
     static LogInfo userInfo = null;
-    static public string ServerAdd = "www.onlyrobotedu.com/robotTest";
-    //public static string ConectionString = @"Data Source=localhost;Initial Catalog=robotedu;user id=root;password=root";
-    public static string ConectionString = @"Data Source=106.14.99.79;Initial Catalog=robotedu;user id=john;password=ab021510105";
+    static public string ServerAdd = "www.onlyrobotedu.com/robotTest"ï¼›
+    public static string ConectionString = "YOU DataSourc";
 
 
 
@@ -44,9 +43,9 @@ public class Diya
         userInfo.PushData(Type, ID, Name);
     }
     /// <summary>
-    /// ÓÃÓÚMD5¼ÓÃÜµÄº¯Êı
+    /// ç”¨äºMD5åŠ å¯†çš„å‡½æ•°
     /// </summary>
-    /// <param name="text">ĞèÒª¼ÓÃÜµÄÃ÷ÎÄ</param>
+    /// <param name="text">éœ€è¦åŠ å¯†çš„æ˜æ–‡</param>
     /// <returns></returns>
     public  string GetMD5Text(string text)
     {
@@ -54,9 +53,9 @@ public class Diya
         return secur.MD5Text(text);
     }
     /// <summary>
-    /// DES¼ÓÃÜº¯Êı£º64bit
+    /// DESåŠ å¯†å‡½æ•°ï¼š64bit
     /// </summary>
-    /// <param name="text">ĞèÒª¼ÓÃÜµÄÃ÷ÎÄ</param>
+    /// <param name="text">éœ€è¦åŠ å¯†çš„æ˜æ–‡</param>
     /// <returns></returns>
     public  string GetDESEncrypt(string text)
     {
@@ -64,9 +63,9 @@ public class Diya
         return secur.DESEncrypt(text);
     }
     /// <summary>
-    /// DESµÄ½âÃÜº¯Êı
+    /// DESçš„è§£å¯†å‡½æ•°
     /// </summary>
-    /// <param name="text">ĞèÒª½âÃÜµÄÃÜÎÄ</param>
+    /// <param name="text">éœ€è¦è§£å¯†çš„å¯†æ–‡</param>
     /// <returns></returns>
     public  string GetDESDecrypt(string text)
     {
@@ -74,9 +73,9 @@ public class Diya
         return secur.DESDecrypt(text);
     }
     /// <summary>
-    /// AESµÄ¼ÓÃÜº¯Êı:256bit
+    /// AESçš„åŠ å¯†å‡½æ•°:256bit
     /// </summary>
-    /// <param name="text">ĞèÒª¼ÓÃÜµÄÃ÷ÎÄ</param>
+    /// <param name="text">éœ€è¦åŠ å¯†çš„æ˜æ–‡</param>
     /// <returns></returns>
     public  string GetAESEncrypt(string text)
     {
@@ -84,9 +83,9 @@ public class Diya
         return secur.AESEncrypt(text);
     }
     /// <summary>
-    /// AESµÄ½âÃÜº¯Êı
+    /// AESçš„è§£å¯†å‡½æ•°
     /// </summary>
-    /// <param name="text">ĞèÒª½âÃÜµÄÃÜÎÄ</param>
+    /// <param name="text">éœ€è¦è§£å¯†çš„å¯†æ–‡</param>
     /// <returns></returns>
     public  string GetAESDecrypt(string text)
     {
@@ -94,10 +93,10 @@ public class Diya
         return secur.AESDecrypt(text);
     }
     /// <summary>
-    /// ÓÃÓÚ¸øGridView°ó¶¨Êı¾İ²¢ÇÒ·µ»ØÊı¾İ±íµ¥
+    /// ç”¨äºç»™GridViewç»‘å®šæ•°æ®å¹¶ä¸”è¿”å›æ•°æ®è¡¨å•
     /// </summary>
-    /// <param name="Gw">ĞèÒª°ó¶¨µÄGridView</param>
-    /// <param name="SelectCommand">SqlµÄselectÓï¾ä</param>
+    /// <param name="Gw">éœ€è¦ç»‘å®šçš„GridView</param>
+    /// <param name="SelectCommand">Sqlçš„selectè¯­å¥</param>
     /// <returns></returns>
     public  DataTable Gridviewbind(GridView Gw, string SelectCommand)
     {
@@ -124,10 +123,10 @@ public class Diya
         return read;
     }
     /// <summary>
-    /// ÓÃÓÚ¼ì²âÎÄ±¾
+    /// ç”¨äºæ£€æµ‹æ–‡æœ¬
     /// </summary>
-    /// <param name="Mode">¼ì²âÄ£Ê½¡£N:Ö»¼ì²âÊÇ·ñÊÇÊı×Ö£¬PHONENUMBER:¼ì²âÊÇ·ñÂú×ãµç»°ºÅÂëµÄĞèÇó</param>
-    /// <param name="Text">ĞèÒª¼ì²âµÄÎÄ±¾</param>
+    /// <param name="Mode">æ£€æµ‹æ¨¡å¼ã€‚N:åªæ£€æµ‹æ˜¯å¦æ˜¯æ•°å­—ï¼ŒPHONENUMBER:æ£€æµ‹æ˜¯å¦æ»¡è¶³ç”µè¯å·ç çš„éœ€æ±‚</param>
+    /// <param name="Text">éœ€è¦æ£€æµ‹çš„æ–‡æœ¬</param>
     /// <returns></returns>
     public bool checktext(string Mode, string Text)
     {
@@ -161,7 +160,7 @@ public class Diya
         return flag;
     }
     /// <summary>
-    /// ÓÃÓÚ·¢ËÍÓÊ¼ş£¬×¢Òâ·¢ĞÅµÄÓÊ¼ş±ØĞëÒª¿ªÆôSMTP·şÎñ
+    /// ç”¨äºå‘é€é‚®ä»¶ï¼Œæ³¨æ„å‘ä¿¡çš„é‚®ä»¶å¿…é¡»è¦å¼€å¯SMTPæœåŠ¡
     /// </summary>
     /// <param name="sender_user"></param>
     /// <param name="sender_password"></param>
